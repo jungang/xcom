@@ -54,7 +54,7 @@
 
     methods: {
       handleClick(evt) {
-        console.log(evt)
+        window.console.log(evt)
       }
     }
   };

@@ -1,8 +1,12 @@
-import Button from '../packages/button/index.js';
-
+// import XcomButton from '../packages/button/index.js';
+import XcomButton from '../packages/button/index';
+import XcomPractice from "./components/Main";
+import XcomPractices from "./components/Main2";
 
 const components = [
-    Button
+    XcomButton,
+    XcomPractice,
+    XcomPractices,
 ];
 
 
@@ -17,7 +21,22 @@ if (typeof window !== 'undefined' && window.Vue) {
     install(window.Vue);
 }
 
+
+
+
 export default {
     install,
-    Button
+    XcomButton,
+    XcomPractice,
+    XcomPractices,
 }
+
+export const XcomButton2 = {
+    com:XcomButton
+};
+export const XcomPractice2 = {
+    com:XcomPractice
+};
+export const XcomPractices2 = {
+    com:XcomPractices
+};
