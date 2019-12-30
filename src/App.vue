@@ -2,7 +2,7 @@
   <div>
     <xcom-practice :propData='initData'/>
     <xcom-practices :propData='initData'/>
-    <xcom-button>button ..........  </xcom-button>
+    <xcom-button>button ..........1  </xcom-button>
   </div>
 
 </template>

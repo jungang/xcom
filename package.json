@@ -1,6 +1,6 @@
 {
   "name": "xcom",
-  "version": "0.1.20",
+  "version": "0.1.21",
   "private": false,
   "main": "./dist/xcom.umd.js",
   "files": [
@@ -11,13 +11,13 @@
     "*.json"
   ],
   "scripts": {
-    "serve":        "vue-cli-service serve",
-    "build":        "vue-cli-service build",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
     "build-bundle": "vue-cli-service build --target lib --name xcom src/index.js",
-    "lint":         "vue-cli-service lint",
-    "login":        "npm login",
-    "whoami":        " npm whoami",
-    "publish":      "npm publish"
+    "lint": "vue-cli-service lint",
+    "login": "npm login",
+    "whoami": " npm whoami",
+    "publish": "npm publish"
   },
   "dependencies": {
     "core-js": "^3.4.3",
@@ -40,5 +40,16 @@
   },
   "description": "## Project setup ``` npm install ```",
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "directories": {
+    "example": "examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jungang/xcom.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jungang/xcom/issues"
+  },
+  "homepage": "https://github.com/jungang/xcom#readme"
 }
